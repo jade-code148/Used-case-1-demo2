@@ -72,7 +72,7 @@ def process_data(data: list, operation: str = "sum") -> float:
     else:
         raise ValueError("Invalid operation. Choose from 'sum', 'average', 'max', 'min'.")
 
-
+"""
 # Example usage (you can add more complex code here)
 class Product:
     def __init__(self, name, price):
@@ -80,4 +80,4 @@ class Product:
         self.price = price
 
     def apply_discount(self, discount_percentage):
-        return calculate_discount(self.price, discount_percentage)
+        return calculate_discount(self.price, discount_percentage)"""
